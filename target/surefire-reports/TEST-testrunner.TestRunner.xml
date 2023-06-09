@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="testrunner.TestRunner" time="18.483" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\NileshW2\WSseleniumJava_April23\MyJuneProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\NileshW2\WSseleniumJava_April23\MyJuneProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NileshW2\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\nodejs\;C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\NileshW2\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\NileshW2\AppData\Local\Programs\Python\Python311;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\NileshW2\scoop\shims;C:\Users\NileshW2\AppData\Local\Microsoft\WindowsApps;C:\Users\NileshW2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NileshW2\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin;C:\Users\NileshW2\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\NileshW2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="NileshW2"/>
+    <property name="java.class.path" value="C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Login Data Driven" name="Login Data Driven #1" time="9.123"/>
+  <testcase classname="Login Data Driven" name="Login Data Driven #2" time="9.36">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDef.steps.user_navigates_to_my_account_page(steps.java:105)
+	at ✽.User navigates to MyAccount Page(file:///C:/Users/NileshW2/WSseleniumJava_April23/MyJuneProject/./Features/LoginDDT.feature:10)
+</failure>
+    <system-out>
+Scenario Outline: Login Data Driven                                               &amp;#27;[90m# Features/LoginDDT.feature:15&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser Launch browser&amp;#27;[0m                                                       &amp;#27;[90m# stepDef.steps.user_launch_browser()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mopens URL &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;https://tutorialsninja.com/demo/&quot;&amp;#27;[0m                                &amp;#27;[90m# stepDef.steps.opens_url(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser navigate to MyAccount menu&amp;#27;[0m                                            &amp;#27;[90m# stepDef.steps.user_navigate_to_my_account_menu()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mclick on Login&amp;#27;[0m                                                              &amp;#27;[90m# stepDef.steps.click_on_login()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser enters Email as &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;nileshtraining@gmail.com&quot;&amp;#27;[0m&amp;#27;[32m and Password as &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;mytest321&quot;&amp;#27;[0m &amp;#27;[90m# stepDef.steps.email_and_password(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mClick on Login button&amp;#27;[0m                                                       &amp;#27;[90m# stepDef.steps.click_on_login_button()&amp;#27;[0m
+It opens welcome screen....
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mUser navigates to MyAccount Page&amp;#27;[0m                                           &amp;#27;[90m# stepDef.steps.user_navigates_to_my_account_page()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDef.steps.user_navigates_to_my_account_page(steps.java:105)
+	at ✽.User navigates to MyAccount Page(file:///C:/Users/NileshW2/WSseleniumJava_April23/MyJuneProject/./Features/LoginDDT.feature:10)
+&amp;#27;[0m
+</system-out>
+    <system-err>Jun 09, 2023 11:56:49 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38212
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 09, 2023 11:56:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+</system-err>
+  </testcase>
+</testsuite>

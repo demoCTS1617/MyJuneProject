@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.527 sec <<< FAILURE!
+Login Data Driven #2(Login Data Driven)  Time elapsed: 9.36 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDef.steps.user_navigates_to_my_account_page(steps.java:105)
+	at ✽.User navigates to MyAccount Page(file:///C:/Users/NileshW2/WSseleniumJava_April23/MyJuneProject/./Features/LoginDDT.feature:10)
+
