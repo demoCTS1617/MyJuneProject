@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: testrunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.527 sec <<< FAILURE!
-Login Data Driven #2(Login Data Driven)  Time elapsed: 9.36 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.20 s <<< FAILURE! -- in testrunner.TestRunner
+Login Data Driven.Login Data Driven #2 -- Time elapsed: 8.101 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
